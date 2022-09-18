@@ -1,14 +1,170 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "projects": [
+    {
+      "id": 1,
+      "title": "KnowMore",
+      "status": "done",
+      "description": "Filter any country of your choice and discover facts about the country. This app intends to give a general knowledge",
+      "shortDescription": "A query app",
+      "img": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/wirxeocmd6tpnn9c5oqc.jpg",
+      "tools": [
+        {
+          "tool": "ReactJs",
+          "no": 1
+        },
+        {
+          "tool": "Dom manipution",
+          "no": 2
+        },
+        {
+          "tool": "Fetch API",
+          "no": 3
+        },
+        {
+          "tool": "React Bootsrap",
+          "no": 4
+        }
+      ],
+      "takeaway": "Completing this project taught me how to use Javascript built in Fetch API to make API requests. Before building this project i was unaware of how to integrate a 3rd party API into my projects. It was interesting to find out that many real applications such as Facebook, instagram e.t.c had built their own API and applied it to their applications.",
+      "lessons": "While building this app, i encountered some bugs such as 'cors-error' while trying to make request to Allcountries  API, which was really difficult to debug. I would like to give credit to the developers at dev.to community for helping out when i asked the bug question."
+    },
+    {
+      "id": 2,
+      "title": "RPS Game",
+      "status": "done",
+      "description": "RPS is a mini Javascript game, that allows user's to play Rock, Paper, Scissors against the computer house. This app maintains the state of player score after page refresh.",
+      "shortDescription": "A mini game",
+      "img": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/fnzuxyyl1wwyscqgaiyc.jpg",
+      "tools": [
+        {
+          "tool": "Dom manipulation",
+          "no": 1
+        },
+        {
+          "tool": "local storage API",
+          "no": 2
+        },
+        {
+          "tool": "Data structures and algorithms",
+          "no": 3
+        },
+        {
+          "tool": "Functions",
+          "no": 4
+        }
+      ],
+      "takeaway": "It was fantastic journey while building this project. This project taught me how to solve problems programmatically. Before completing this project, i was unsure of how to save the user's current point whenever the page refreshes, then it taught me how to implement the built in local storage api, and also i realised the power of functional programming.",
+      "lessons": "While building this app, i encountered some difficulties trying to implement the local storage API, i would like to give credit to my mentor Jerry Needam and to our precious google."
+    },
+    {
+      "id": 3,
+      "title": "EMD",
+      "status": "pending",
+      "description": "A complete crud application that is used to manage employee's. This app can be used to add, remove, filter employee's",
+      "shortDescription": "Employee management app",
+      "img": "https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmlsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "tools": [
+        {
+          "tool": "Reactjs",
+          "no": 1
+        },
+        {
+          "tool": "CSS",
+          "no": 2
+        },
+        {
+          "tool": "Data structures",
+          "no": 3
+        },
+        {
+          "tool": "Functions",
+          "no": 4
+        }
+      ],
+      "takeaway": "Completeing this project taught me how to perform CRUD appliction. It was indeed a wonderful journey, because i realised knowing how to perform CRUD applictions was very important in the world web developement.",
+      "lessons": "Many thanks to the developers at dev.to and google. Ater coming across some bugs that were difficult debug, i needed further research."
+    },
+    {
+      "id": 4,
+      "title": "Zuri",
+      "status": "done",
+      "description": "This app is a clone of a company website Zuri. Having the ability to clone an existing website was always a thoughtful idea.",
+      "shortDescription": "A company website clone",
+      "img": "https://training.zuri.team/lady1.jpg",
+      "tools": [
+        {
+          "tool": "ReactJs",
+          "no": 1
+        },
+        {
+          "tool": "Styled-components",
+          "no": 2
+        }
+      ],
+      "takeaway": "Completing this project taught me a lot of styling techniques using CSS and Bootsrap. It was cool to learn how to make websites responsive using media queries. It was interesting to have been able to make the app responsive across all screen sizes",
+      "lessons": "Indeed google is a friend to developer, it made my work easy while i was trying to learn new methods of CSS."
+    },
+    {
+      "id": 5,
+      "title": "SellRoot",
+      "status": "pending",
+      "description": "SellRoot is practical Ecommerce web application, it features the use of payment APIs and user authentification, user logging and logout processes.",
+      "shortDescription": "Ecommerce Deatils Page App",
+      "img": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/uehz7kwoo7gesfebbqi8.jpg",
+      "tools": [
+        {
+          "tool": "ReactJs",
+          "no": 1
+        },
+        {
+          "tool": "Styled-components",
+          "no": 2
+        },
+        {
+          "tool": "payment API",
+          "no": 3
+        },
+        {
+          "tool": "JSON-SERVER",
+          "no": 4
+        },
+        {
+          "tool": "Axios API",
+          "no": 5
+        }
+      ],
+      "takeaway": "Completing this project taught me a lot of styling techniques using CSS and Bootsrap. It was cool to learn how to make websites responsive using media queries. It was interesting to have been able to make the app responsive across all scr",
+      "lessons": "While building this app i faced some difficulties trying to implement the use of payment API for transactions. I would like to give credit to google and Brad Traversy channel in youtube for making this project a success."
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "name": "bbbx hnhnhjs",
+      "email": "akaridow@gmail.com",
+      "budget": "400",
+      "msg": "ndjhjbd jdd",
+      "id": 1
+    },
+    {
+      "name": "hgcuj",
+      "email": "aakaridow@gmail.com",
+      "budget": "400",
+      "msg": "fjjfjjf",
+      "id": 2
+    },
+    {
+      "name": "sbbbs",
+      "email": "akaridow@gmail.com",
+      "budget": "600",
+      "msg": "hhhhjdkkx jjsd",
+      "id": 3
+    },
+    {
+      "name": "kka jjjasj",
+      "email": "akari@gmail.com",
+      "budget": "600",
+      "msg": "hhjhdhhhdhhd",
+      "id": 4
+    }
+  ]
 }
